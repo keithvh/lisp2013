@@ -1,5 +1,5 @@
-(defun counter (l)
+(defun counter (l1)
 	(cond
-	((null l) 0)
-	( t (1+ (counter (cdr l))))))
+	((null l1) 0)
+	( t (1+ (counter (cdr l1))))))
 
